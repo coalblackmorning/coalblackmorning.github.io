@@ -6,9 +6,22 @@ body {
 		Times, serif;
 	color: #ffffff;
 	background-color: #000000;
+}
 
 
+a:link{
+	color:#ffffff;
+	text-decoration:none;
+}
 
+a:visited{
+	color:#ffffff;
+}
 
+a:hover{
+	color:#FF0000;
+}
 
+a:active{
+	color:#000000;
 }
