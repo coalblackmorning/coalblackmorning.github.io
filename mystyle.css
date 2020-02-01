@@ -8,21 +8,26 @@ body {
 	background-color: #000000;
 }
 
+/*---以下是鼠标效果---*/
+	a:link{
+		color:#ffffff;
+		text-decoration:none;
+	}
+	a:visited{
+		color:#ffffff;
+	}
+	a:hover{
+		color:#FF0000;
+		text-decoration: bold;
+	}
+	a:active{
+		color:#000000;
+	}
+/*---以下是导航栏--*/
+	ul.navbar {
+		position:absolute;
+		top:2em;
+		left:1em;
+		width:9em;
+	}
 
-a:link{
-	color:#ffffff;
-	text-decoration:none;
-}
-
-a:visited{
-	color:#ffffff;
-}
-
-a:hover{
-	color:#FF0000;
-	text-decoration: bold;
-}
-
-a:active{
-	color:#000000;
-}
